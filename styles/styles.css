@@ -1,0 +1,42 @@
+/* body */
+
+#fondo-pagina{
+  display: block;
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-border{
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+  transform: scale(1.01);
+}
+
+img, iframe{
+  border-radius: 5px;
+}
+
+.arriba{
+  /* display: none; */
+  position: fixed;
+  bottom: 120px;
+  left: 10px;
+}
+
+
+
+.icon-up-open{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+span{
+  text-decoration: none;
+}

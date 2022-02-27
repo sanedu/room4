@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Registro/stylesregistro.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Formulario de Registro</title>
+  </head>
+  <body>
+    <section class="form-register">
+      <h4>Registrarse</h4>
+      <form>
+        <p>Nombre</p>
+        <div>
+          <input
+            class="controls"
+            type="text"
+            name="nombres"
+            id="nombres"
+            placeholder="Ingrese sus nombres"
+            maxlength="30"
+            minlength="10">
+        </div>
+        <p>Apellido</p>
+        <div>
+         <input
+            class="controls"
+            type="text"
+            name="apellidos"
+            id="apellidos"
+            placeholder="Ingrese sus apellidos"
+            maxlength="30"
+            minlength="10">
+          </div>
+          <p>Documento</p>
+          <div>
+          <input
+            class="controls"
+            type="number"
+            name="Número de documento"
+            id="Número de documento"
+            placeholder="Ingrese su número de documento"
+            maxlength="10"
+            minlength="6"
+            required>
+          </div>
+          <p>Fecha de Nacimiento</p>
+          <div>
+          <input
+            class="controls"
+            type="date"
+            name="fecha de nacimiento"
+            id="fecha de nacimiento"
+            placeholder="Seleccione su fecha de nacimmiento">
+        </div>
+        <p>País</p>
+        <div>
+          <select
+            class="controls"
+            name="País"
+            id="País"
+            placeholder="Seleccione su País"
+          >
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Uruguay">Uruguay</option>
+          </select>
+        </div>
+        <p>Correo</p>
+        <div>   
+        <input
+          class="controls"
+          type="email"
+          name="Correo electrónico"
+          id="Correo electrónico"
+          placeholder="Ingrese su correo electrónico"
+        />
+        </div>
+        <p>Contraseña</p>
+        <div>
+        <input
+          class="controls"
+          type="password"
+          name="Correo electrónico"
+          id="Correo electrónico"
+          placeholder="Ingrese su contraseña"
+          maxlength="40"
+          minlength="10">
+        </div>
+        <p>Repetir Contraseña</p>
+        <div>
+        <input
+          class="controls"
+          type="password"
+          name="Correo electrónico"
+          id="Correo electrónico"
+          placeholder="Repetir su contraseña"
+          maxlength="30"
+          minlength="10">
+        </div>
+        <div>
+        <input type="checkbox" name="acepta" id="acepta" required>
+        <label for="acepta">Estoy de acuerdo con <a href="#">Términos y Condiciones</a></label>
+      </div>
+      <br>
+      <div>   
+        <button class="buttons" type="submit" name="Registrarse">Enviar</button>
+    </div>
+    <br>
+      <div> 
+        <label>
+          <a href="./Pagina de Login.html">¿Ya tienes cuenta?</a>
+        </label>
+    </div> 
+      </form>
+    </section>
+    <br>
+    <br>
+    <br>
+  <br>
+  <br>
+  <br>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

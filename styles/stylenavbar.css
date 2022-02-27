@@ -1,0 +1,10 @@
+.title {
+    font-size: 15px;
+  }
+  
+  @media (min-width: 990px) {
+    .title {
+      font-size: 30px;
+    }
+  }
+  

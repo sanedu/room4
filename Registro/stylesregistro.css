@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(fondo.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.form-register {
+  width: 400px;  
+  background-color: rgba(10, 10, 10, 0.938);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px black;
+}
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 21px;
+
+}
+.controls {
+    width: 100%;
+    background-color:rgba(10, 10, 10, 0.938) ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(235, 69, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.form-register label {
+    height: 40 px;
+    text-align: center;
+    font-size: 18 px;
+    line-height: 40px;
+    
+}
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.form-register a:hover {
+    color: white;
+    text-decoration: orangered underline;
+    text-align: center;
+}
+.form-register .buttons {
+width: 100%;
+background: orangered;
+border: none;
+padding: 12px;
+color: white;
+margin: 16 px 0;
+font-size: 16 px;
+
+}
